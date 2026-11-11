@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #14243B;
+    overflow-x: hidden;
+  }
+}
+
+/* Sophisticated enterprise background patterns */
+.tech-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(7, 26, 53, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(7, 26, 53, 0.04) 1px, transparent 1px);
+}
+
+.tech-grid-pattern-dark {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(54, 182, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(54, 182, 255, 0.05) 1px, transparent 1px);
+}
+
+.enterprise-gradient-hero {
+  background: radial-gradient(circle at 85% 15%, rgba(23, 105, 232, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 10% 80%, rgba(54, 182, 255, 0.08) 0%, transparent 40%),
+              #071A35;
+}
+
+.cyber-glow {
+  box-shadow: 0 0 35px -5px rgba(54, 182, 255, 0.25);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(7, 26, 53, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(54, 182, 255, 0.15);
+}
+
